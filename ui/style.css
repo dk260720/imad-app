@@ -16,6 +16,10 @@ body {
 .img-medium {
     height: 200px;
 }
+.img-large {
+    height: 200px;
+    width: 800px;
+}
 
 .text-small{
     font-size:200%;
