@@ -24,7 +24,8 @@ body {
 .text-small{
     font-size:200%;
 }
-.pad{
+pad{
    background-color: lightgrey;
+margin-right: 150px;
     padding: 50px 30px 50px 80px;
 }
