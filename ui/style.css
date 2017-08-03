@@ -24,11 +24,9 @@ background-image: url("img_tree.png");
 .text-small{
     font-size:100%;
 }
-div1{
-    border: 1px solid black;
-    background-color: lightblue;
-    padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+div1 {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
