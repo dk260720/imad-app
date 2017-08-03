@@ -1,4 +1,4 @@
-.body {
+body {
 background-image: url("img_tree.png");
     background-repeat: no-repeat;
     background-position: right top;
@@ -29,9 +29,9 @@ background-image: url("img_tree.png");
     font-size:100%;
 }
 
-div1. {
-    margin: auto;
-    width: 60%;
-    border: 5px solid #73AD21;
-    padding: 20px;
+div1 {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+    padding: 30px;
 }
