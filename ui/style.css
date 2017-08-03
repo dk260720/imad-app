@@ -22,8 +22,5 @@ background-color: yellow;
 }
 .pad{
    background-color: lightgrey;
-    width: 500px;
-    border: 25px solid green;
-   padding: 50px 30px 50px 80px;
-   margin: 100px 150px 100px 80px;
+    padding: 50px 30px 50px 80px;
 }
