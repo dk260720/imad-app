@@ -19,10 +19,10 @@ background-image: url("img_tree.png");
     height: 200px;
 }
 .text-medium{
-    font-size: 50%;
+    font-size: 100%;
 }
 .text-small{
-    font-size:50%;
+    font-size:100%;
 }
 div{
     border: 1px solid black;
