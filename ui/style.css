@@ -29,7 +29,7 @@ background-image: url("img_tree.png");
     font-size:100%;
 }
 
-div1 {
+.div1 {
     margin: auto;
     width: 60%;
     border: 3px solid #73AD21;
