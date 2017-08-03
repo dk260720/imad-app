@@ -1,7 +1,9 @@
 body {
-    background-image: url("paper.gif");
+background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
 }
-
 .center {
     text-align: center;
 }
