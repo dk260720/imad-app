@@ -29,9 +29,3 @@ background-image: url("img_tree.png");
     font-size:100%;
 }
 
-div1 {
-    max-width: 500px;
-    height: 100px;
-    background-color: powderblue;
-    padding: 30px;
-}
