@@ -28,6 +28,7 @@ body {
 
 b{
      background-color: lightgrey;
+    width: 2500px;
     border: 25px solid green;
     padding: 25px;
     margin: 25px;
