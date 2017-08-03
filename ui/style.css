@@ -28,10 +28,8 @@ body {
 
 b{
      background-color: lightgrey;
-    height: 100px;
-    width: 100px;
     border: 25px solid green;
     padding: 25px;
-    margin: auto;
+    margin: 25px;
     
 }
