@@ -1,7 +1,5 @@
 body {
 background-image: url("img_tree.png");
-    background-position: right top;
-    margin-right: 200px;
 }
 .left {
     text-align: left;
