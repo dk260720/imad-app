@@ -27,15 +27,16 @@ body {
 }
 
 b{text-align: right;
-    font-size: 150%;
+    font-size: 100%;
      background-color: lightgrey;
     width: auto;
-    border: 25px solid green;
-    padding: 25px;
+    border: 5px solid green;
+    padding: 5px;
     margin: auto;
     
 }
 .s{
+    font_-size: 200%;
     text-align: center;
     margin: auto;
 }
