@@ -34,6 +34,7 @@ b{
     
 }
 .s{
+    float: bottom;
     font-size: 200%;
     text-align: center;
     margin: auto;
