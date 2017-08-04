@@ -27,6 +27,7 @@ body {
 }
 
 b{
+    font-size: 150%;
      background-color: lightgrey;
     width: auto;
     border: 25px solid green;
