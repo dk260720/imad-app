@@ -26,7 +26,7 @@ body {
     font-size:200%;
 }
 
-b{
+b{text-align: right;
     font-size: 150%;
      background-color: lightgrey;
     width: auto;
