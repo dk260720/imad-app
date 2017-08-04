@@ -13,10 +13,6 @@ body {
 .bold {
     font-weight: bold;
 }
-
-.img-medium {
-    height: 300px;
-}
 .img-large {
     height: 300px;
     width: 600px;
@@ -41,5 +37,6 @@ b{
 }
 .img1 {
     float: left;
-    margin: 0 0 10px 10px
+    margin: 0 0 10px 10px;
+     height: 300px;
 }
