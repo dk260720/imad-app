@@ -10,10 +10,6 @@ body {
     margin: 20px;
     padding: 10px;
 }
-
-.bold {
-    font-weight: bold;
-}
 .img-large {
     height: 300px;
     width: 600px;
@@ -32,7 +28,6 @@ b{
 }
 .s{
     font-size: 300%;
-    text-align: center;
     margin: auto;
 }
 .img1 {
