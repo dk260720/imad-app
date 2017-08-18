@@ -15,8 +15,7 @@ body {
     width: 600px;
 }
 
-b{
-    text-align: center;
+.b{
     font-size: 200%;
    background-color: lightblue;
    position: absolute;
