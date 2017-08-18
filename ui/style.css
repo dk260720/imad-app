@@ -16,10 +16,11 @@ body {
 }
 
 .b{
-    font-size: 200%;
+    font-size: 150%;
    background-color: lightblue;
    position: absolute;
-    width: 1000px;
+    right: 0px;
+    width: 800px;
     padding: 10px;
     
 }
