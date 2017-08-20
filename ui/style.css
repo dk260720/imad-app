@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: black;
 }
 .left {
     text-align: left;
@@ -17,7 +17,7 @@ body {
 
 .b{
        font-size: 150%;
-   background-color: blue;
+   background-color: light blue;
 }
 .s{
     font-size: 300%;
