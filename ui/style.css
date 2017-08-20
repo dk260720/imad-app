@@ -16,12 +16,12 @@ body {
 }
 
 .b{
+    float: right;
     font-size: 150%;
    background-color: lightblue;
    position: absolute;
-  
     width: 700px;
-    margin: 25px;
+    margin: 20px;
     
 }
 .s{
