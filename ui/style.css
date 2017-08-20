@@ -20,8 +20,9 @@ body {
    background-color: lightblue;
    position: absolute;
   
-    width: 800px;
+    width: 200px;
     padding: 10px;
+    margin-left: 100px;
     
 }
 .s{
