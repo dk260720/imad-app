@@ -3,7 +3,8 @@ var morgan = require('morgan');
 var path = require('path');
 var app = express();
 app.use(morgan('combined'));
-var articleOne = {
+var articles ={
+             'article-One' : {
                title: 'dinesh kumar |  feeling cool',
                heading: 'This is my article_one',
                date: 'june 4 95',
@@ -12,7 +13,19 @@ var articleOne = {
               We can call functions any number of times in a program and from any place in a program.
               A large C program can easily be tracked when it is divided into functions.
               The core concept of C functions are, re-usability, dividing a big task into small pieces to achieve the functionality and to improve understandability of very large C programs.</p>`
-               };
+               },
+                'article-Two' : {
+                   title: 'dinesh kumar |  feeling hot',
+               heading: 'This is my article_two',
+               date: 'june 5 95',
+               content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
+               </p>`},
+               'article-Three' : {title: 'dinesh kumar |  feeling hot',
+               heading: 'This is my article_three',
+               date: 'june 6 95',
+               content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
+               </p>`}
+};
 function createTemplate (data)
           {
               var title= data.title;
@@ -42,8 +55,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function (req, res){
-   res.send(createTemplate(articleOne));
+app.get('/:articleName',function (req, res){
+    articleName= rer.params.articleName;
+    res.send(createTemplate(articles[articleName]));
 });
 app.get('/article-two',function (req, res){
     res.send('my first page in articles two');
