@@ -4,7 +4,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var articles = {
-             'article-One' : {
+             'article-one' : {
                title: 'dinesh kumar |  feeling cool',
                heading: 'This is my article_one',
                date: 'june 4 95',
@@ -14,13 +14,13 @@ var articles = {
               A large C program can easily be tracked when it is divided into functions.
               The core concept of C functions are, re-usability, dividing a big task into small pieces to achieve the functionality and to improve understandability of very large C programs.</p>`
                },
-                'article-Two' : {
+                'article-two' : {
                    title: 'dinesh kumar |  feeling hot',
                heading: 'This is my article_two',
                date: 'june 5 95',
                content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
                </p>`},
-               'article-Three' : {title: 'dinesh kumar |  feeling hot',
+               'article-three' : {title: 'dinesh kumar |  feeling hot',
                heading: 'This is my article_three',
                date: 'june 6 95',
                content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
