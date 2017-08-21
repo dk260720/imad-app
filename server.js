@@ -4,7 +4,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var articleOne = {
-    title: 'dinesh kumar |  feeling cool',
+               title: 'dinesh kumar |  feeling cool',
                heading: 'This is my article_one',
                date: 'june 4 95',
                content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
@@ -19,7 +19,8 @@ function createTemplate (data)
           var date= data.date;
           var heading= data.heading;
           var content= data.content;
-          var htmltemplate= `<html>
+          var htmltemplate= 
+          `<html>
     <head>
         <title> ${title}</title>
            <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,13 +34,12 @@ function createTemplate (data)
                 <div>${content}</div>
            </div>
            </body>
-</html>`;
+    </html>`;
 }
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
 
 app.get('/article-one',function (req, res){
    res.send(createTemplate(articleOne));
