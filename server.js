@@ -59,12 +59,6 @@ app.get('/:articleName',function (req, res){
     articleName= rer.params.articleName;
     res.send(createTemplate(articles[articleName]));
 });
-app.get('/article-two',function (req, res){
-    res.send('my first page in articles two');
-});
-app.get('/article-three',function (req, res){
-    res.send('my first page in articles three');
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
