@@ -34,11 +34,13 @@ body {
 h{
     margin: 10px;
 }
-.container{
-            padding-top: 30px;
+.container
+           {
+ 
     margin: 0 auto;
     text-align: center;
-    max-width: 900px;
+    max-width: 1000px;
     color: blue;
-    background-color: gainsboro;
-           }
+    background-color: #fea;
+    padding: 30px;
+}
