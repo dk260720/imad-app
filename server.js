@@ -1,16 +1,48 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-
 var app = express();
 app.use(morgan('combined'));
+var articleone = {
+    title: 'dinesh kumar |  feeling cool',
+               heading: 'This is my article_one',
+               date: 'june 4 95',
+               content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
+              There is no limit in calling C functions to make use of same functionality wherever required.
+              We can call functions any number of times in a program and from any place in a program.
+              A large C program can easily be tracked when it is divided into functions.
+              The core concept of C functions are, re-usability, dividing a big task into small pieces to achieve the functionality and to improve understandability of very large C programs.</p>`
+               };
+function createtemplate (data)
+          {
+              var title= data.title;
+          var date= data.date;
+          var heading= data.heading;
+          var content= data.content;
+          var htmltemplate= `<html>
+    <head>
+        <title> ${title}</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1" />
+           <link href="/ui/style.css" rel="stylesheet" />
+     </head>
+            <body>
+                <div class="container"><a href="/">Home</a>
+                <hr/>
+                <h> ${heading}</h>
+                <div>${date}</div>
+                <div>${content}</div>
+           </div>
+           </body>
+</html>`;
+}
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+
 app.get('/article-one',function (req, res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+   res.send(createtemplate(articleone));
 });
 app.get('/article-two',function (req, res){
     res.send('my first page in articles two');
