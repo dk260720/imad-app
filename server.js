@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 var app = express();
 app.use(morgan('combined'));
-var articles ={
+var articles = {
              'article-One' : {
                title: 'dinesh kumar |  feeling cool',
                heading: 'This is my article_one',
@@ -56,7 +56,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articleName',function (req, res){
-    var articleName= req.params.articleName;
+    var articleName = req.params.articleName;
     res.send(createTemplate(articles[articleName]));
 });
 
