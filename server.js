@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 var app = express();
 app.use(morgan('combined'));
-var articleone = {
+var articleOne = {
     title: 'dinesh kumar |  feeling cool',
                heading: 'This is my article_one',
                date: 'june 4 95',
@@ -13,7 +13,7 @@ var articleone = {
               A large C program can easily be tracked when it is divided into functions.
               The core concept of C functions are, re-usability, dividing a big task into small pieces to achieve the functionality and to improve understandability of very large C programs.</p>`
                };
-function createtemplate (data)
+function createTemplate (data)
           {
               var title= data.title;
           var date= data.date;
@@ -42,7 +42,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/article-one',function (req, res){
-   res.send(createtemplate(articleone));
+   res.send(createTemplate(articleOne));
 });
 app.get('/article-two',function (req, res){
     res.send('my first page in articles two');
