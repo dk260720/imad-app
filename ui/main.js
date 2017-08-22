@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var img = document.getElementByid('madi');
-var marginleft = 0;
+var marginLeft = 0;
 function moveRight (){
 marginLeft = marginLeft + 5;
 img.style.marginLeft = marginLeft + 'px';    
