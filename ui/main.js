@@ -2,9 +2,9 @@ console.log('Loaded!');
 var img = document.getElementByid('madi');
 var marginleft = 0;
 function moveRight (){
-marginleft = marginleft+5;
-img.style.marginleft = marginleft+ 'px';    
+marginLeft = marginLeft + 5;
+img.style.marginLeft = marginLeft + 'px';    
 }
 img.onclick = function () {
-    var interval = setInterval (moveRight, 50);
+    var interval = setInterval(moveRight, 50);
 };
