@@ -36,8 +36,8 @@ h{
 }
 .container
            {
-               font-size:100%;
-               margin: 0 auto;
-               text-align: center;
+               font-size:150%;
+               margin: 100px;
+               text-align: left;
                 padding: 30px;
 }
