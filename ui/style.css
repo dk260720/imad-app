@@ -7,8 +7,7 @@ body {
 
 .center {
     text-align: center;
-    margin: 20px;
-    padding: 10px;
+   
 }
 .img-large {
     height: 300px;
@@ -37,7 +36,8 @@ h{
 .container
            {
                font-size:150%;
-               margin: 400px;
+               margin-left: 400px;
+               margin-right:400px;
                text-align: left;
                 padding: 30px;
 }
