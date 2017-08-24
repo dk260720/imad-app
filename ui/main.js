@@ -17,3 +17,17 @@ request.open('GET','http://dk260720.imad.hasura-app.io/counter', true);
 request.send(null);
     
 };
+
+var nameinput= document.getElementById('name');
+var name= nameinput.value;
+var submit= document.getElementById('submit');
+submit.onclick= function(){
+var names=['name1','name2','name3','name4'];
+var list='';
+for(i=0;i<=name.length;i++)
+{
+  list+='<li>' + names[i] + '</li>';
+}
+var ul=document.getElementById('namelist');
+ul.innerHTML=list;
+};
