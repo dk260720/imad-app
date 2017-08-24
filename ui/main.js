@@ -13,7 +13,7 @@ request.onReadystatechange  = function(){
           }
       } 
     };
-request.open('GET','http://dk260720.imad.hasura-app.io/counter', ture);
+request.open('GET','http://dk260720.imad.hasura-app.io/counter', true);
 request.send(null);
     
 };
