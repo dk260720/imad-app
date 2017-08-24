@@ -41,5 +41,4 @@ ul.innerHTML=list;
 };
 request.open('GET','http://dk260720.imad.hasura-app.io/submitname?name='+name, true);
 request.send(null);
-    
 };
