@@ -33,6 +33,6 @@ ul.innerHTML=list;
 };
 var nameinput= document.getElementById('name');
 var name= nameInput.value;
-request.open('GET','http://dk260720.imad.hasura-app.io/submitname?name='+name, true);
+request.open('GET','http://dk260720.imad.hasura-app.io/submitname?name=' + name, true);
 request.send(null);
 };
