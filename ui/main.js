@@ -18,8 +18,6 @@ request.send(null);
     
 };
 
-var nameinput= document.getElementById('name');
-var name= nameInput.value;
 var submit= document.getElementById('submit_btn');
 submit.onclick= function(){
     var request = new XMLHttpRequest();
@@ -39,6 +37,8 @@ ul.innerHTML=list;
 }
  }
 };
+var nameinput= document.getElementById('name');
+var name= nameInput.value;
 request.open('GET','http://dk260720.imad.hasura-app.io/submitname?name='+name, true);
 request.send(null);
 };
