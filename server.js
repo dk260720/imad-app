@@ -8,6 +8,12 @@ app.get('/counter',function(req, res){
     counter=counter+1;
     res.send(counter.toString());
     });
+    var names=[];
+    app.get('/submitname',function(req, res){
+        var names=req.query.name;
+        names.push(name);
+        res.send(JSON.stringfy(names));
+    });
 var articles = {
              'article-one' : {
                title: 'dinesh kumar |  feeling cool',
