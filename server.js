@@ -12,7 +12,7 @@ app.get('/counter',function(req, res){
     app.get('/submitname',function(req, res){
         var names=req.query.name;
         names.push(name);
-        res.send(JSON.stringfy(names));
+        res.send(JSON.stringify(names));
     });
 var articles = {
              'article-one' : {
