@@ -14,7 +14,7 @@ request.open('GET','http://dk260720.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 var submit= document.getElementById('submit_btn');
-submit.onclick =function (){
+submit.onclick = function (){
     var request = new XMLHttpRequest();
 request.onreadystatechange  = function (){
       if(request.readyState ===XMLHttpRequest.DONE) {
