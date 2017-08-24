@@ -35,8 +35,8 @@ submit.onclick = function ()
           }
         }
     };
-var nameinput= document.getElementById('name');
-var name= nameInput.value;
-request.open('GET','http://dk260720.imad.hasura-app.io/submitname?name=' + name, true);
-request.send(null);
+    var nameinput= document.getElementById('name');
+    var name= nameInput.value;
+    request.open('GET','http://dk260720.imad.hasura-app.io/submitname?name=' + name, true);
+    request.send(null);
 };
