@@ -89,7 +89,7 @@ app.get('/test-db',function (req, res)
             res.status(500).send(err.tostring());
         }else
         {
-            res.send(JSON.stringfy(result));
+            res.send(JSON.stringify(result));
         }
     });
 });
