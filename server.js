@@ -7,7 +7,7 @@ var config= {
     database: 'dk260720',
     port: '5432',
     host: 'db.imad.hasura-app.io',
-    Password: 'process.env.DB_PASSWORD'
+    Password: process.env.DB_PASSWORD
 };
 
 
@@ -82,7 +82,7 @@ app.get('/ui/main.js', function (req, res) {
 var pool= new Pool(config);
 app.get('/test-db',function (req, res)
 {
-    pool.query('SELECT * FROM test_piece', function(err, result)
+    pool.query('SELECT * from test_piece', function(err, result)
     {
         if (err)
         {
