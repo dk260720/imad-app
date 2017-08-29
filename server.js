@@ -24,30 +24,6 @@ app.get('/counter',function(req, res){
     counter=counter+1;
     res.send(counter.toString());
     });
-   
-var articles = {
-             'article-one' : {
-               title: 'dinesh kumar |  feeling cool',
-               heading: 'This is my article_one',
-               date: 'june 4 95',
-               content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
-              There is no limit in calling C functions to make use of same functionality wherever required.
-              We can call functions any number of times in a program and from any place in a program.
-              A large C program can easily be tracked when it is divided into functions.
-              The core concept of C functions are, re-usability, dividing a big task into small pieces to achieve the functionality and to improve understandability of very large C programs.</p>`
-               },
-                'article-two' : {
-                   title: 'dinesh kumar |  feeling hot',
-               heading: 'This is my article_two',
-               date: 'june 5 95',
-               content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
-               </p>`},
-               'article-three' : {title: 'dinesh kumar |  feeling hot',
-               heading: 'This is my article_three',
-               date: 'june 6 95',
-               content: `<p> C functions are used to avoid rewriting same logic/code again and again in a program.
-               </p>`}
-};
 function createTemplate (data)
           {
               var title= data.title;
