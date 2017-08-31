@@ -41,7 +41,7 @@ function createTemplate (data)
                 <div class="container"><a href="/">Home</a>
                 <hr/>
                 <h> ${heading}</h>
-                <div>${date}</div>
+                <div>${date.toDateString()}</div>
                 <div>${content}</div>
            </div>
            </body>
